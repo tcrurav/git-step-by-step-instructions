@@ -16,14 +16,14 @@ You need a working environment with:
 This short guide is divided into:
 * Preliminary steps
   - Step 1: Installing Git locally.
-  - Step 2: Installing Visual Studio locally.
+  - Step 2: Installing Visual Studio Code locally.
   - Step 3: Creating a Github account.
 * First steps done only once at the beginning of a project
   - Step 4: Creating a Github repository.
   - Step 5: Creating a Github project.
   - Step 6: Creating Github rules for main branch and develop branch.
   - Step 7: Creating a local project in Visual Studio Code.
-  - Step 8: Creating main and develop branches locally.
+  - Step 8: Creating main and develop branches locally and push your first commit.
 * Steps during the project
   - Step 9: Adding items to the backlog at anytime.
 * Steps during the sprint creation
@@ -42,8 +42,83 @@ This short guide is divided into:
 * Steps in Github to merge from develop to main
   - Step 20: Same steps 17 to 19 but now from merge from develop to main
 
+In the next sections we will see all this steps a bit deeper.
+
 ### Preliminary steps
-In
+
+In the preliminary steps you just have to start working with git following this steps:
+
+* Step 1: Installing Git locally.
+
+Just go to ```https://git-scm.com/downloads``` and then download Git for your favourite operating system; finally install git in your computer.
+
+* Step 2: Installing Visual Studio Code locally.
+
+Just go to ```https://code.visualstudio.com/``` and then download Visual Studio Code for your favourite operating system; finally install git in your computer.
+
+* Step 3: Creating a Github account.
+
+Just go to ```https://github.com/``` and then create your Github account.
+
+### First steps done only once at the beginning of a project
+
+In the preliminary steps you just have to start working with git following this steps:
+
+* Step 4: Creating a Github repository.
+
+Log in with your Github account and create a new repository.
+
+![Creating a new repository](/screenshots/screenshot-47-short.png)
+
+* Step 5: Creating a Github project.
+
+Clic on the tab ```Projects``` and then create a new Project in Github.
+
+![Creating a new project](/screenshots/screenshot-04-short.png)
+
+Now you can create the project:
+
+![Creating a new project](/screenshots/screenshot-05-short.png)
+
+Use the ```Team Backlog``` template:
+
+![Creating a new project](/screenshots/screenshot-06-short.png)
+
+We will work with this 5 columns. Please remove the default left most one:
+
+![Creating a new project](/screenshots/screenshot-07-short.png)
+
+We will work with the following board columns, so that please delete the first default one:
+
+![After deleting the first column](/screenshots/screenshot-04-short.png)
+
+* Step 6: Creating Github rules for main branch and develop branch.
+
+Clic on the tab ```Settings``` and then create rules for main and develop branches in Github.
+
+![Creating a new project](/screenshots/screenshot-22-short.png)
+
+* Step 7: Creating a local project in Visual Studio Code.
+
+Just create a new local project in Visual Studio Code in a new folder.
+
+* Step 8: Creating main and develop branches locally and push your first commit.
+
+Just create a new local project in Visual Studio Code in a new folder. After that create some files (maybe your README.md file), and introduce the following git commands:
+
+```
+git init
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin <<your github's repository url>>
+git push origin main
+
+git branch develop
+git checkout develop
+git push origin develop
+```
+
 
 
 ## Built With
