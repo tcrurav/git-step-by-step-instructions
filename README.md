@@ -14,16 +14,25 @@ You need a working environment with:
 ## The steps of this step-by-step short guide
 
 This short guide is divided into:
-* Preliminary steps done only once at the beginning
+* Preliminary steps
   - Step 1: Installing Git locally.
   - Step 2: Installing Visual Studio locally.
   - Step 3: Creating a Github account.
+* First steps done only once at the beginning of a project
   - Step 4: Creating a Github repository.
   - Step 5: Creating a Github project.
   - Step 6: Creating Github rules for main branch and develop branch.
+  - Step 7: Creating a local project in Visual Studio Code.
+  - Step 8: Creating main and develop branches locally.
 * Steps during the project
-  - Step 7: Adding items to the backlog
-  - Step 8: Drag items to the 
+  - Step 9: Adding items to the backlog at anytime.
+* Steps during the sprint creation
+  - Step 10: Dragging items to the Ready column.
+  - Step 11: Dragging items to the In-progress column.
+  - Step 12: Converting an item in an issue.
+  - Step 13: Creating a new branch locally from develop with name issue#n
+  - Step 14: working on issue.
+  - Step 15: git add, commit and push to remote branch issue#n 
 
 ### Preliminary steps
 In
