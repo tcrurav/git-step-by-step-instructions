@@ -29,10 +29,13 @@ This short guide is divided into:
 * Steps during the sprint creation
   - Step 10: Dragging items to the Ready column.
   - Step 11: Dragging items to the In-progress column.
-  - Step 12: Converting an item in an issue.
-  - Step 13: Creating a new branch locally from develop with name issue#n
-  - Step 14: working on issue.
-  - Step 15: git add, commit and push to remote branch issue#n 
+  - Step 12: Converting items in issues.
+  - Step 13: Assigning issues to developers.
+* Steps while working on an issue.
+  - Step 14: Creating a new branch locally from develop with name issue#n
+  - Step 15: working on the issue#n.
+  - Step 16: git add, commit and push to remote branch issue#n
+  - Step 17: 
 
 ### Preliminary steps
 In
