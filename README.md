@@ -69,7 +69,7 @@ In the preliminary steps you just have to start working with git following this 
 
 Log in with your Github account and create a new repository.
 
-<img src="screenshots/screenshot-47-short.png" style="border: 2px solid  gray;"/>
+<kbd><img src="screenshots/screenshot-47-short.png"/></kbd>
 
 * **Step 5: Creating a Github project.**
 
