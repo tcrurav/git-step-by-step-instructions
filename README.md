@@ -26,7 +26,7 @@ This short guide is divided into:
   - Step 2: Installing Visual Studio Code locally.
   - Step 3: Creating a Github account.
 * First steps done only once at the beginning of a project
-  - Step 4: Creating a Github repository.
+  - Step 4: Creating a Github repository and adding collaborators.
   - Step 5: Creating a Github project.
   - Step 6: Creating Github rules for main branch and develop branch.
   - Step 7: Creating a local project in Visual Studio Code.
@@ -81,6 +81,10 @@ In the preliminary steps you just have to start working with git following this 
 Log in with your Github account and create a new repository.
 
 <img src="screenshots/screenshot-47-short.png"/>
+
+Add the collaborators to the repository:
+
+<img src="screenshots/screenshot-20-short.png"/>
 
 
 * **Step 5: Creating a Github project.**
