@@ -12,6 +12,11 @@ You need basic git background.
 You need a working environment with:
 * [Git](https://git-scm.com) - You can install it from https://git-scm.com/downloads.
 
+## The steps of this step-by-step short guide (in just one image)
+
+<img src="screenshots/screenshot-00.png"/>
+
+[Download this image as PDF file](docs/20231111-Git-Step-By-Step.pdf)
 
 ## The steps of this step-by-step short guide
 
