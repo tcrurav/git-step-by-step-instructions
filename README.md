@@ -84,7 +84,7 @@ Log in with your Github account and create a new repository.
 
 Add the collaborators to the repository:
 
-<img src="screenshots/screenshot-20-short.png"/>
+<img src="screenshots/screenshot-20-short-1.png"/>
 
 
 * **Step 5: Creating a Github project.**
