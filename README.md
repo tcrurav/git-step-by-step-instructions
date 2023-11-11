@@ -160,14 +160,7 @@ At the beginning of a new scrum sprint you have to drag the items you are going 
 
 * **Step 11: Converting items in issues.**
 
-When a developer starts working in a task the item must be dragged from the Ready to the In-progress column:
-
-<img src="screenshots/screenshot-12-short.png"/>
-
-
-* **Step 12: Assigning repository to the issue.**
-
-Now we will convert the item in an issue to get an issue number. Click on the 3 dots inside the In-progress column for that:
+Now we will convert the item in an issue to get an issue number. Click on the 3 dots for that:
 
 <img src="screenshots/screenshot-13-short.png"/>
 
@@ -176,20 +169,27 @@ Here you can see the assigned number for the issue is #1, and the icon shows tha
 <img src="screenshots/screenshot-15-short.png"/>
 
 
-* **Step 13: Assigning issues to developers.**
+* **Step 12: Assigning repository to the issue.**
 
-In the In-progress column clic on the issue to assign a respository to the issue:
+Clic on the issue to assign a respository to the issue:
 
 <img src="screenshots/screenshot-14-short.png"/>
+
+
+* **Step 13: Assigning issues to developers.**
+
+Clic on the issue title and you will get the following window where you can add an assignee who will work on the issue:
+
+<img src="screenshots/screenshot-16-short.png"/>
 
 
 ### Steps developing an issue (In progress)
 
 * **Step 14: Dragging items to the In-progress column.**
 
-In the In-progress column clic on the issue title and you will get the following window where you can add an assignee who will work on the issue:
+When a developer starts working in a task the item must be dragged from the Ready to the In-progress column:
 
-<img src="screenshots/screenshot-16-short.png"/>
+<img src="screenshots/screenshot-12-short.png"/>
 
 Here you can now see the issue with its number, its respository assigned, as well as the developer assigned:
 
@@ -296,4 +296,5 @@ Whenever your team decides it you can merge from develop to main. For that you j
 ## Acknowledgments
 
 * https://gist.github.com/PurpleBooth/109311bb0361f32d87a2. A very complete template for README.md files.
-* https://www.conventionalcommits.org/en/v1.0.0/. A specification for adding human and machine readable meaning to commit messages
+* https://www.conventionalcommits.org/en/v1.0.0/. A specification for adding human and machine readable meaning to commit messages.
+* https://nvie.com/posts/a-successful-git-branching-model/. A successful Git branching model.
