@@ -76,7 +76,7 @@ Just go to https://github.com/ and then create your Github account.
 
 In the preliminary steps you just have to start working with git following this steps:
 
-* **Step 4: Creating a Github repository.**
+* **Step 4: Creating a Github repository and adding collaborators.**
 
 Log in with your Github account and create a new repository.
 
