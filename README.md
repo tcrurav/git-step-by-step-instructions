@@ -49,61 +49,61 @@ In the next sections we will see all this steps a bit deeper.
 
 In the preliminary steps you just have to start working with git following this steps:
 
-* Step 1: Installing Git locally.
+* **Step 1: Installing Git locally.**
 
-Just go to ```https://git-scm.com/downloads``` and then download Git for your favourite operating system; finally install git in your computer.
+Just go to https://git-scm.com/downloads and then download Git for your favourite operating system; finally install git in your computer.
 
-* Step 2: Installing Visual Studio Code locally.
+* **Step 2: Installing Visual Studio Code locally.**
 
-Just go to ```https://code.visualstudio.com/``` and then download Visual Studio Code for your favourite operating system; finally install git in your computer.
+Just go to https://code.visualstudio.com/ and then download Visual Studio Code for your favourite operating system; finally install git in your computer.
 
-* Step 3: Creating a Github account.
+* **Step 3: Creating a Github account.**
 
-Just go to ```https://github.com/``` and then create your Github account.
+Just go to https://github.com/ and then create your Github account.
 
 ### First steps done only once at the beginning of a project
 
 In the preliminary steps you just have to start working with git following this steps:
 
-* Step 4: Creating a Github repository.
+* **Step 4: Creating a Github repository.**
 
 Log in with your Github account and create a new repository.
 
-![Creating a new repository](/screenshots/screenshot-47-short.png)
+<img src="screenshots/screenshot-47-short.png" style="border: 2px solid  gray;"/>
 
-* Step 5: Creating a Github project.
+* **Step 5: Creating a Github project.**
 
 Clic on the tab ```Projects``` and then create a new Project in Github.
 
-![Creating a new project](/screenshots/screenshot-04-short.png)
+<img src="screenshots/screenshot-04-short.png" style="border: 2px solid  gray;"/>
 
 Now you can create the project:
 
-![Creating a new project](/screenshots/screenshot-05-short.png)
+<img src="screenshots/screenshot-05-short.png" style="border: 2px solid  gray;"/>
 
 Use the ```Team Backlog``` template:
 
-![Creating a new project](/screenshots/screenshot-06-short.png)
+<img src="screenshots/screenshot-06-short.png" style="border: 2px solid  gray;"/>
 
 We will work with this 5 columns. Please remove the default left most one:
 
-![Creating a new project](/screenshots/screenshot-07-short.png)
+<img src="screenshots/screenshot-07-short.png" style="border: 2px solid  gray;"/>
 
 We will work with the following board columns, so that please delete the first default one:
 
-![After deleting the first column](/screenshots/screenshot-04-short.png)
+<img src="screenshots/screenshot-04-short.png" style="border: 2px solid  gray;"/>
 
-* Step 6: Creating Github rules for main branch and develop branch.
+* **Step 6: Creating Github rules for main branch and develop branch.**
 
 Clic on the tab ```Settings``` and then create rules for main and develop branches in Github.
 
-![Creating Github rules](/screenshots/screenshot-22-short.png)
+<img src="screenshots/screenshot-22-short.png" style="border: 2px solid  gray;"/>
 
-* Step 7: Creating a local project in Visual Studio Code.
+* **Step 7: Creating a local project in Visual Studio Code.**
 
 Just create a new local project in Visual Studio Code in a new folder.
 
-* Step 8: Creating main and develop branches locally and push your first commit.
+* **Step 8: Creating main and develop branches locally and push your first commit.**
 
 Just create a new local project in Visual Studio Code in a new folder. After that create some files (maybe your README.md file), and introduce the following git commands:
 
@@ -122,59 +122,59 @@ git push origin develop
 
 ### Steps during the project
 
-* Step 9: Adding items to the backlog at anytime.
+* **Step 9: Adding items to the backlog at anytime.**
 
 In your Github project create a new Item in the Backlog column. In this column you will be creating all project tasks:
 
-![Creating item in Backlog column](/screenshots/screenshot-09-short.png)
+<img src="screenshots/screenshot-09-short.png" style="border: 2px solid  gray;"/>
 
 Now the item has been created in the Backlog column:
 
-![Item created in Backlog column](/screenshots/screenshot-10-short.png)
+<img src="screenshots/screenshot-10-short.png" style="border: 2px solid  gray;"/>
 
 ### Steps during the sprint creation
 
-* Step 10: Dragging items to the Ready column.
+* **Step 10: Dragging items to the Ready column.**
 
 At the beginning of a new scrum sprint you have to drag the items you are going to work on during the sprint to the Ready column:
 
-![Dragging items to the Ready column](/screenshots/screenshot-11-short.png)
+<img src="screenshots/screenshot-11-short.png" style="border: 2px solid  gray;"/>
 
-* Step 11: Dragging items to the In-progress column.
+* **Step 11: Dragging items to the In-progress column.**
 
 When a developer starts working in a task the item must be dragged from the Ready to the In-progress column:
 
-![Dragging items to the In-progress column](/screenshots/screenshot-12-short.png)
+<img src="screenshots/screenshot-12-short.png" style="border: 2px solid  gray;"/>
 
-* Step 12: Converting items in issues.
+* **Step 12: Converting items in issues.**
 
 Now we will convert the item in an issue to get an issue number. Click on the 3 dots inside the In-progress column for that:
 
-![Converting items in issues](/screenshots/screenshot-13-short.png)
+<img src="screenshots/screenshot-13-short.png" style="border: 2px solid  gray;"/>
 
 Here you can see the assigned number for the issue is #1, and the icon shows that now is an issue and not an item any longer.
 
-![Converting items in issues](/screenshots/screenshot-15-short.png)
+<img src="screenshots/screenshot-15-short.png" style="border: 2px solid  gray;"/>
 
-* Step 13: Assigning repository to the issue.
+* **Step 13: Assigning repository to the issue.**
 
 In the In-progress column clic on the issue to assign a respository to the issue:
 
-![Converting items in issues](/screenshots/screenshot-14-short.png)
+<img src="screenshots/screenshot-14-short.png" style="border: 2px solid  gray;"/>
 
-* Step 14: Assigning issues to developers.
+* **Step 14: Assigning issues to developers.**
 
 In the In-progress column clic on the issue title and you will get the following window where you can add an assignee who will work on the issue:
 
-![Converting items in issues](/screenshots/screenshot-16-short.png)
+<img src="screenshots/screenshot-16-short.png" style="border: 2px solid  gray;"/>
 
 Here you can now see the issue with its number, its respository assigned, as well as the developer assigned:
 
-![Converting items in issues](/screenshots/screenshot-18-short.png)
+<img src="screenshots/screenshot-18-short.png" style="border: 2px solid  gray;"/>
 
 ### Steps working locally on an issue.
 
-* Step 15: Creating a new branch locally from develop with name issue#n
+* **Step 15: Creating a new branch locally from develop with name issue#n**
 
 In Visual Studio Code create from develop a new branch called issue#1, where 1 is the number of the corresponding issue.
 
@@ -208,11 +208,11 @@ And finally put the Head on issue#1
 git checkout issue#1
 ```
 
-* Step 16: working on the issue#n.
+* **Step 16: working on the issue#n**
 
 In this step you are just working on the issue.
 
-* Step 17: git add, commit and push to remote branch issue#n
+* **Step 17: git add, commit and push to remote branch issue#n**
 
 When you are finished with the code of the issue, you have to push your changes to the remote branch. Be sure you are on your project root directory. And pay attention to the message format where you should include the issue number you are working on:
 
@@ -224,40 +224,40 @@ git push origin issue#1
 
 ### Steps in Github to Create, Review, Accept or Deny, and finally Merge a pull request
 
-* Step 18: Creating pull request for issue#1
+* **Step 18: Creating pull request for issue#1**
 
 In your Github repository you can now see the following:
 
-![compare and pull request](/screenshots/screenshot-19-short.png)
+<img src="screenshots/screenshot-19-short.png" style="border: 2px solid  gray;"/>
 
 Clicking on the "compare & pull request" green button you will get this new window, where you will enter the data for the pull request and clic on "create pull request":
 
-![Creating pull request](/screenshots/screenshot-33-short.png)
+<img src="screenshots/screenshot-33-short.png" style="border: 2px solid  gray;"/>
 
 
-* Step 19: Reviewing pull request for issue#1
+* **Step 19: Reviewing pull request for issue#1**
 
 Once you have in previous step created the pull request you get this window where you can see that reviewer shouldn't be the same person who pushed the issue:
 
-![Reviewing pull request for issue#1](/screenshots/screenshot-34-short.png)
+<img src="screenshots/screenshot-34-short.png" style="border: 2px solid  gray;"/>
 
 A different developer who works as reviewer should be the one who reviews the code clicking on the "add your review" button. Pay attention to reviewing from issue#1 to develop:
 
-![Reviewing pull request for issue#1](/screenshots/screenshot-41-short.png)
+<img src="screenshots/screenshot-41-short.png" style="border: 2px solid  gray;"/>
 
 In the following window you can approve or request changes, and comment the code done in the issue:
 
-![Reviewing pull request for issue#1](/screenshots/screenshot-43-short.png)
+<img src="screenshots/screenshot-43-short.png" style="border: 2px solid  gray;"/>
 
-* Step 20: Merging into develop from issue#1
+* **Step 20: Merging into develop from issue#1**
 
 Once you have, in previous step, submitted the review, you can now merge to develop from issue#1:
 
-![Merging into develop from issue#1](/screenshots/screenshot-44-short.png)
+<img src="screenshots/screenshot-44-short.png" style="border: 2px solid  gray;"/>
 
 ### Steps in Github to merge from develop to main
 
-* Step 21: Same steps 18 to 20 but now from merge from develop to main
+* **Step 21: Same steps 18 to 20 but now from merge from develop to main**
 
 Whenever your team decides it you can merge from develop to main. For that you just need to repeat steps 18 to 20 just taking into account that now the reviewer is merging from develop to main.
 
